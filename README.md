@@ -1,7 +1,9 @@
 ROTAS: 
 
 Route::get('/banco', [BancoController::class, 'index']);
+
 Route::get('/credito', [CreditoController::class, 'index']);
+
 Route::post('/financeiro', [FinanceiroController::class, 'index']);
 
 METODO DE TESTE: POSTMAN
